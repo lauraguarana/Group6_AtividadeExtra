@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="AutomacaoGmail" />
         <module name="AtividadeExtraAutomacao" />
+        <module name="Group6_DevOps_AtividadeExtra" />
       </profile>
     </annotationProcessing>
   </component>
