@@ -36,3 +36,9 @@ jobs:
         run: |
           mvn test -B
 
+      - name: Store test results
+        uses: actions/upload-artifact@v2
+        with:
+          name: test-results
+          path: target/surefire-reports/
+
